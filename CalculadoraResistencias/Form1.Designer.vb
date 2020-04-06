@@ -588,7 +588,9 @@ Partial Class Form1
         Me.Controls.Add(Me.Titulo)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(354, 442)
         Me.MinimizeBox = False
+        Me.MinimumSize = New System.Drawing.Size(354, 442)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Calculadora de resistencias"
